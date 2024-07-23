@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 export default function handleResponseFromAPI(promise) {
   return promise
     .then(() => (
