@@ -8,3 +8,5 @@ const server = http.createServer((req, res) => {
 
 const PORT = 1245;
 server.listen(PORT);
+
+module.exports = server;
